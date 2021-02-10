@@ -28,7 +28,33 @@ class _ShowroomState extends State<Showroom> {
         actions: [
           Padding(
             padding: EdgeInsets.only(right: 16),
+            child: Icon(
+              Icons.menu_rounded,
+              color: Colors.black,
+              size: 28,
+            ),
           ),
+        ],
+      ),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Container(
+            padding: EdgeInsets.only(bottom: 10),
+            child: Padding(
+              padding: EdgeInsets.all(16),
+              child: TextField(
+                decoration: InputDecoration(
+                  hintText: "Search",
+                  hintStyle: TextStyle(fontSize: 16),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(20),
+                    borderSide: BorderSide(width: 0, style: BorderStyle.none),
+                  ),
+                ),
+              ),
+            ),
+          )
         ],
       ),
     );
