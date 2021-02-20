@@ -33,11 +33,21 @@ class OrientationList extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
-              child: Text('Hello'),
+              child: Text(
+                'Hello',
+                style: TextStyle(
+                  fontSize: 100,
+                  color: Colors.amber,
+                ),
+              ),
             ),
             Container(
+              padding: EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(30), color: Colors.amber),
               child: Text('60'),
             ),
           ],
