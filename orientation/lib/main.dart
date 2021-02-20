@@ -31,11 +31,33 @@ class OrientationList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text(
-        'Hello',
-        style: TextStyle(
-          fontSize: 52,
+      body: Center(
+        child: Column(
+          children: <Widget>[
+            Container(
+              child: Text('Hello'),
+            ),
+            Container(
+              child: Text('60'),
+            ),
+          ],
         ),
+        // child: Container(
+        //   child: Column(
+        //     mainAxisAlignment: MainAxisAlignment.center,
+
+        //     children: [
+        //       Text(
+        //         'Hello',
+        //         style: TextStyle(
+        //           fontSize: 100,
+        //           color: Colors.amber,
+        //         ),
+        //       ),
+        //       Text('60')
+        //     ],
+        //   ),
+        // ),
       ),
     );
   }

@@ -44,7 +44,8 @@ import 'package:flutter/material.dart';
 import 'package:sensors/sensors.dart';
 
 class Snake extends StatefulWidget {
-  Snake({this.rows = 20, this.columns = 20, this.cellSize = 10.0}) {
+  Snake({this.rows, this.columns, this.cellSize}) {
+    print('$rows $cellSize');
     assert(10 <= rows);
     assert(10 <= columns);
     assert(5.0 <= cellSize);
