@@ -41,7 +41,7 @@ class OrientationList extends StatelessWidget {
             margin: EdgeInsets.only(
                 top: (MediaQuery.of(context).size.height) / 2 - 60),
             child: Text(
-              'Hello',
+              'FootBall',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 100,
@@ -51,7 +51,7 @@ class OrientationList extends StatelessWidget {
           ),
           Container(
             margin:
-                EdgeInsets.only(top: (MediaQuery.of(context).size.height / 6)),
+                EdgeInsets.only(top: (MediaQuery.of(context).size.height / 8)),
             padding: EdgeInsets.all(10),
             child: Center(
               child: Container(
@@ -60,7 +60,10 @@ class OrientationList extends StatelessWidget {
                   borderRadius: BorderRadius.circular(30),
                   color: Colors.amber[700],
                 ),
-                child: Text('60',style: TextStyle(fontSize: 20),),
+                child: Text(
+                  '60',
+                  style: TextStyle(fontSize: 20),
+                ),
               ),
             ),
           ),
