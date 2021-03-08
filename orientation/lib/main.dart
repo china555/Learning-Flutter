@@ -35,7 +35,8 @@ class OrientationList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.indigo[900],
+      // backgroundColor: Colors.indigo[900],
+      backgroundColor: Colors.greenAccent[400],
       body: Column(
         // mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -52,24 +53,24 @@ class OrientationList extends StatelessWidget {
               ),
             ),
           ),
-          Container(
-            margin:
-                EdgeInsets.only(top: (MediaQuery.of(context).size.height / 8)),
-            padding: EdgeInsets.all(10),
-            child: Center(
-              child: Container(
-                padding: EdgeInsets.all(15),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(30),
-                  color: Colors.amber[700],
-                ),
-                child: Text(
-                  '60',
-                  style: TextStyle(fontSize: 20),
-                ),
-              ),
-            ),
-          ),
+          // Container(
+          //   margin:
+          //       EdgeInsets.only(top: (MediaQuery.of(context).size.height / 8)),
+          //   padding: EdgeInsets.all(10),
+          //   child: Center(
+          //     child: Container(
+          //       padding: EdgeInsets.all(15),
+          //       decoration: BoxDecoration(
+          //         borderRadius: BorderRadius.circular(30),
+          //         color: Colors.amber[700],
+          //       ),
+          //       child: Text(
+          //         '60',
+          //         style: TextStyle(fontSize: 20),
+          //       ),
+          //     ),
+          //   ),
+          // ),
         ],
       ),
     );
