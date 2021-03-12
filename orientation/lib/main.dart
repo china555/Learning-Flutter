@@ -30,49 +30,82 @@ class OrientationList extends StatelessWidget {
 
   OrientationList({Key key, this.title}) : super(key: key);
 
-  
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       // backgroundColor: Colors.indigo[900],
-      backgroundColor: Colors.greenAccent[400],
-      body: Column(
-        // mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: <Widget>[
-          Container(
-            margin: EdgeInsets.only(
-                top: (MediaQuery.of(context).size.height) / 2 - 60),
-            child: Text(
-              'FootBall',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 100,
-                color: Colors.white,
+      backgroundColor: Colors.indigo[800],
+      body: Center(
+        child: Column(
+          children: [
+            Container(
+              margin: EdgeInsets.only(
+                  top: (MediaQuery.of(context).size.height) / 2 - 120),
+              child: Text(
+                'FootBalla wdwadawd',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 100,
+                  color: Colors.white,
+                ),
               ),
             ),
-          ),
-          // Container(
-          //   margin:
-          //       EdgeInsets.only(top: (MediaQuery.of(context).size.height / 8)),
-          //   padding: EdgeInsets.all(10),
-          //   child: Center(
-          //     child: Container(
-          //       padding: EdgeInsets.all(15),
-          //       decoration: BoxDecoration(
-          //         borderRadius: BorderRadius.circular(30),
-          //         color: Colors.amber[700],
-          //       ),
-          //       child: Text(
-          //         '60',
-          //         style: TextStyle(fontSize: 20),
-          //       ),
-          //     ),
-          //   ),
-          // ),
-        ],
+            Container(
+              margin: EdgeInsets.only(top: 18),
+              padding: EdgeInsets.all(10),
+              child: Center(
+                child: Container(
+                  padding: EdgeInsets.all(15),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(30),
+                    color: Colors.amber[700],
+                  ),
+                  child: Text(
+                    '60',
+                    style: TextStyle(fontSize: 20),
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
+      // body: Column(
+      //   // mainAxisAlignment: MainAxisAlignment.center,
+      //   crossAxisAlignment: CrossAxisAlignment.stretch,
+      //   children: <Widget>[
+      //     Container(
+      //       margin: EdgeInsets.only(
+      //           top: (MediaQuery.of(context).size.height) / 2 - 60),
+      //       child: Text(
+      //         'FootBallawddddd',
+      //         textAlign: TextAlign.center,
+      //         style: TextStyle(
+      //           fontSize: 100,
+      //           color: Colors.white,
+      //         ),
+      //       ),
+      //     ),
+      //     Container(
+      //       margin:
+      //           EdgeInsets.only(top: (MediaQuery.of(context).size.height / 8)),
+      //       padding: EdgeInsets.all(10),
+      //       child: Center(
+      //         child: Container(
+      //           padding: EdgeInsets.all(15),
+      //           decoration: BoxDecoration(
+      //             borderRadius: BorderRadius.circular(30),
+      //             color: Colors.amber[700],
+      //           ),
+      //           child: Text(
+      //             '60',
+      //             style: TextStyle(fontSize: 20),
+      //           ),
+      //         ),
+      //       ),
+      //     ),
+      //   ],
+      // ),
     );
   }
 }
